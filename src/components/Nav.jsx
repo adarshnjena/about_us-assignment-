@@ -21,11 +21,7 @@ export default function Nav() {
       variant="sticky"
       isBordered={"isDark"}
     >
-      <Navbar.Brand
-        css={{
-          w: "150px",
-        }}
-      >
+      <Navbar.Brand>
         <Image src="./assets/Logo.png" alt=""></Image>
       </Navbar.Brand>
       <Navbar.Toggle showIn="xs" />
@@ -63,7 +59,7 @@ export default function Nav() {
           </Button>
         </Navbar.Link>
       </Navbar.Content>
-      <Navbar.Collapse css={{ paddingLeft: "10vw" }}>
+      <Navbar.Collapse>
         {collapseItems.map((item, index) => (
           <Navbar.CollapseItem key={item}>
             <Link
