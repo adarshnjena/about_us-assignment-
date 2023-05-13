@@ -14,6 +14,7 @@ export default function Hero() {
         height: "60vh",
         margin: "auto",
         marginTop: "12vh",
+        marginBottom: "10vh",
         position: "relative",
       }}
     >
