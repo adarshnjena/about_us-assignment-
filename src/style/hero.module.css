@@ -1,0 +1,106 @@
+.main {
+  width: 99vw;
+  height: 99vh;
+  margin: auto;
+  position: relative;
+}
+
+.heroText {
+  width: 70%;
+  margin: 15vh auto 90px;
+  z-index: 2;
+}
+
+.heroText h1 {
+  font-size: 60px;
+  z-index: 2;
+}
+
+.heroImage img {
+  width: 60%;
+  height: 60%;
+  object-fit: cover;
+  margin: 0 auto;
+  z-index: 3;
+}
+
+.heroImage img:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.vector {
+  position: absolute;
+  bottom: -8vh;
+  right: 2vw;
+  height: 70%;
+  object-fit: cover;
+  z-index: 2;
+}
+
+.glow1 {
+  position: absolute;
+  top: 10vh;
+  left: 15vw;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  opacity: 0.5;
+  box-shadow: 0 0 150px 30px #fff, 0 0 300px 100px #aeffc9,
+    0 0 340px 130px #ccffae;
+}
+
+.glow2 {
+  position: absolute;
+  bottom: 10vh;
+  right: 15vw;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  opacity: 0.5;
+  box-shadow: 0 0 150px 30px #fff, 0 0 300px 100px #aeffc9,
+    0 0 340px 130px #ccffae;
+}
+
+.glow3 {
+  position: absolute;
+  top: 10vh;
+  right: 15vw;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  opacity: 0.5;
+  box-shadow: 0 0 150px 30px #fff, 0 0 300px 100px #032bf4,
+    0 0 340px 130px #009dff;
+  z-index: 0;
+}
+@media only screen and (max-width: 600px) {
+  .heroText {
+    margin: 5vh auto;
+    width: 70vw;
+  }
+
+  .heroText h1 {
+    font-size: 29px;
+  }
+
+  .heroImage {
+    margin: auto;
+    width: 100vw;
+  }
+  .vector {
+    height: 40%;
+  }
+  .glow1 {
+    top: 5vh;
+    left: 5vw;
+  }
+  .glow2 {
+    bottom: 5vh;
+    right: 5vw;
+  }
+  .glow3 {
+    top: 5vh;
+    right: 5vw;
+  }
+}
