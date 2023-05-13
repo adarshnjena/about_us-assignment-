@@ -5,11 +5,11 @@ export default function Nav() {
   const collapseItems = [
     "Home",
     "About Us",
-    "For Student Startups",
-    "For Students",
-    "Events & Programs",
-    "For Corporate Startups",
-    "Premium Membership",
+    "Features",
+    "Blog",
+    "Contact Us",
+    "Join Waitlist",
+    "Login",
   ];
   const collapseItemsLink = ["/", "/", "/", "/", "/", "/", "/"];
 
