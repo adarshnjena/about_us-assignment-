@@ -1,0 +1,31 @@
+.main {
+  position: relative;
+  overflow: hidden;
+}
+
+.bg1 {
+  position: absolute;
+  bottom: 0vh;
+  right: -10vw;
+  width: 20%;
+  rotate: 180deg;
+}
+
+.bg2 {
+  position: absolute;
+  top: 0;
+  left: -10vw;
+  rotate: 200deg;
+  width: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+  .bg2 {
+    top: 0;
+    right: -20vw;
+    width: 40%;
+  }
+  .bg1 {
+    width: 40%;
+  }
+}
