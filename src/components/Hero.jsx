@@ -10,6 +10,11 @@ export default function Hero() {
       alignContent="center"
       css={{
         maxHeight: "82vh",
+        width: "99vw",
+        height: "60vh",
+        margin: "auto",
+        marginTop: "12vh",
+        position: "relative",
       }}
     >
       <Grid xs={100} sm={6}>
