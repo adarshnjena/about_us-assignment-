@@ -11,6 +11,7 @@ export default function Team() {
         justifyContent: "center",
         padding: "2rem",
         background: "rgb(8,9,9)",
+        // eslint-disable-next-line no-dupe-keys
         background:
           "linear-gradient(153deg, rgba(8,9,9,1) 0%, rgba(0,0,0,1) 52%, rgba(43,51,76,1) 100%)",
       }}
